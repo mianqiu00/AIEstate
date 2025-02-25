@@ -11,7 +11,9 @@ Processing: typeInfo (3.91s)
 Processing: areaInfo (3.39s)
 
 Processing: aroundInfo
-Processing location:   0%|          | 0/3688 [00:00<?, ?it/s]Processing location: 100%|██████████| 3688/3688 [00:00<00:00, 2822735.98it/s]
+
+Processing location:   0%|          | 0/3688 [00:00<?, ?it/s]
+Processing location: 100%|██████████| 3688/3688 [00:00<00:00, 2822735.98it/s]
 Processing: aroundInfo (3.86s)
 
 Processing: introContent (8.07s)
@@ -62,9 +64,41 @@ Model saved successfully to ./saved_model/elasticnet_regression.pkl
 Finished train_elasticnet_regression. (12.21s)
 
 Starting train_mlp...
-Training Epoch:   0%|          | 0/250 [00:00<?, ?it/s]Training Epoch:   0%|          | 1/250 [00:00<00:55,  4.48it/s]Training Epoch:   8%|▊         | 19/250 [00:00<00:03, 70.95it/s]Training Epoch:  12%|█▏        | 30/250 [00:00<00:03, 68.69it/s]Training Epoch:  16%|█▌        | 39/250 [00:00<00:03, 69.73it/s]Training Epoch:  19%|█▉        | 47/250 [00:00<00:02, 70.37it/s]Training Epoch:  22%|██▏       | 55/250 [00:00<00:02, 70.86it/s]Training Epoch:  25%|██▌       | 63/250 [00:00<00:02, 71.16it/s]Training Epoch:  28%|██▊       | 71/250 [00:01<00:02, 71.39it/s]Training Epoch:  32%|███▏      | 79/250 [00:01<00:02, 71.57it/s]Training Epoch:  35%|███▍      | 87/250 [00:01<00:02, 71.70it/s]Training Epoch:  38%|███▊      | 95/250 [00:01<00:02, 71.79it/s]Training Epoch:  41%|████      | 103/250 [00:01<00:02, 71.81it/s]Training Epoch:  44%|████▍     | 111/250 [00:01<00:01, 71.84it/s]Training Epoch:  48%|████▊     | 119/250 [00:01<00:01, 71.86it/s]Training Epoch:  51%|█████     | 127/250 [00:01<00:01, 71.89it/s]Training Epoch:  54%|█████▍    | 135/250 [00:01<00:01, 71.91it/s]Training Epoch:  57%|█████▋    | 143/250 [00:02<00:01, 71.94it/s]Training Epoch:  60%|██████    | 151/250 [00:02<00:01, 71.93it/s]Training Epoch:  64%|██████▎   | 159/250 [00:02<00:01, 71.92it/s]Training Epoch:  67%|██████▋   | 167/250 [00:02<00:01, 71.92it/s]Training Epoch:  70%|███████   | 175/250 [00:02<00:01, 71.95it/s]Training Epoch:  73%|███████▎  | 183/250 [00:02<00:00, 71.94it/s]Training Epoch:  76%|███████▋  | 191/250 [00:02<00:00, 71.96it/s]Training Epoch:  80%|███████▉  | 199/250 [00:02<00:00, 71.94it/s]Training Epoch:  83%|████████▎ | 207/250 [00:02<00:00, 71.95it/s]Training Epoch:  86%|████████▌ | 215/250 [00:03<00:00, 71.96it/s]Training Epoch:  89%|████████▉ | 223/250 [00:03<00:00, 71.97it/s]Training Epoch:  92%|█████████▏| 231/250 [00:03<00:00, 71.94it/s]Training Epoch:  96%|█████████▌| 239/250 [00:03<00:00, 71.94it/s]Training Epoch:  99%|█████████▉| 247/250 [00:03<00:00, 71.94it/s]Training Epoch: 100%|██████████| 250/250 [00:03<00:00, 70.32it/s]
-RMSE: 622.2047
-R²: -0.0000
+
+Training Epoch:   0%|          | 0/250 [00:00<?, ?it/s]
+Training Epoch:   0%|          | 1/250 [00:00<00:55,  4.48it/s]
+Training Epoch:   8%|▊         | 19/250 [00:00<00:03, 70.95it/s]
+Training Epoch:  12%|█▏        | 30/250 [00:00<00:03, 68.69it/s]
+Training Epoch:  16%|█▌        | 39/250 [00:00<00:03, 69.73it/s]
+Training Epoch:  19%|█▉        | 47/250 [00:00<00:02, 70.37it/s]
+Training Epoch:  22%|██▏       | 55/250 [00:00<00:02, 70.86it/s]
+Training Epoch:  25%|██▌       | 63/250 [00:00<00:02, 71.16it/s]
+Training Epoch:  28%|██▊       | 71/250 [00:01<00:02, 71.39it/s]
+Training Epoch:  32%|███▏      | 79/250 [00:01<00:02, 71.57it/s]
+Training Epoch:  35%|███▍      | 87/250 [00:01<00:02, 71.70it/s]
+Training Epoch:  38%|███▊      | 95/250 [00:01<00:02, 71.79it/s]
+Training Epoch:  41%|████      | 103/250 [00:01<00:02, 71.81it/s]
+Training Epoch:  44%|████▍     | 111/250 [00:01<00:01, 71.84it/s]
+Training Epoch:  48%|████▊     | 119/250 [00:01<00:01, 71.86it/s]
+Training Epoch:  51%|█████     | 127/250 [00:01<00:01, 71.89it/s]
+Training Epoch:  54%|█████▍    | 135/250 [00:01<00:01, 71.91it/s]
+Training Epoch:  57%|█████▋    | 143/250 [00:02<00:01, 71.94it/s]
+Training Epoch:  60%|██████    | 151/250 [00:02<00:01, 71.93it/s]
+Training Epoch:  64%|██████▎   | 159/250 [00:02<00:01, 71.92it/s]
+Training Epoch:  67%|██████▋   | 167/250 [00:02<00:01, 71.92it/s]
+Training Epoch:  70%|███████   | 175/250 [00:02<00:01, 71.95it/s]
+Training Epoch:  73%|███████▎  | 183/250 [00:02<00:00, 71.94it/s]
+Training Epoch:  76%|███████▋  | 191/250 [00:02<00:00, 71.96it/s]
+Training Epoch:  80%|███████▉  | 199/250 [00:02<00:00, 71.94it/s]
+Training Epoch:  83%|████████▎ | 207/250 [00:02<00:00, 71.95it/s]
+Training Epoch:  86%|████████▌ | 215/250 [00:03<00:00, 71.96it/s]
+Training Epoch:  89%|████████▉ | 223/250 [00:03<00:00, 71.97it/s]
+Training Epoch:  92%|█████████▏| 231/250 [00:03<00:00, 71.94it/s]
+Training Epoch:  96%|█████████▌| 239/250 [00:03<00:00, 71.94it/s]
+Training Epoch:  99%|█████████▉| 247/250 [00:03<00:00, 71.94it/s]
+Training Epoch: 100%|██████████| 250/250 [00:03<00:00, 70.32it/s]
+RMSE: 235.5713
+R²: 0.8567
 Finished train_mlp. (4.96s)
 
 All Training Finished! (254.55s)
